@@ -32,7 +32,7 @@ body {
   justify-content: centre;
   flex-direction: column;
   position: relative;
-  border: 1000px solid #EFBDBD ;
+  border: 800px solid #EFBDBD ;
 }
 
 
@@ -42,8 +42,8 @@ body {
   display: block; /* Prevents the image from being inline */
   width: 650; /* Adjust size to fit the section if needed */
   height: 100%; /* Ensures the height matches the container */
-  margin: 20px; /* Removes any extra spacing */
-  padding: 20px; /* Removes padding */
+  margin: 70px; /* Removes any extra spacing */
+  padding: 10px; /* Removes padding */
 
 }
 
@@ -83,8 +83,8 @@ left: 50%;         /* Centers the section horizontally */
 
 /* Styling for input box */
 .input-box {
-  width: 300px;               /* Set width of the input box */
-  height: 40px;               /* Set height of the input box */
+  width: 350px;               /* Set width of the input box */
+  height: 35px;               /* Set height of the input box */
   padding: 5px;               /* Padding inside the input box */
   font-size: 16px;            /* Font size inside the input */
   margin-right: 10px;         /* Space between the input box and button */
@@ -110,6 +110,56 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
+/* Styling for the text box that displays user input */
+.user-text-box {
+  margin: 20px auto; /* Center horizontally */
+  padding: 15px; /* Internal padding */
+  background-color: #F7DFDF; /* Light pink background */
+  border: 1px solid #35522B; /* Dark green border */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 700px; /* Maximum width */
+  color: #35522B; /* Dark green text */
+  font-family: 'Neucha'; /* Font family */
+  font-size: 20px; /* Font size */
+  line-height: 1.5; /* Line height for readability */
+}
+
+
+
+/* Styling for messages section */
+.messages-section {
+  background-color:#EFBDBD;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+  margin-bottom: 70px;
+}
+/* Styling for user message box */
+.user-box {
+  background-color: #E3F9E5;  /* Light green background for user messages */
+  color: #35522B;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 80%;
+  align-self: flex-end;  /* Aligns user messages to the right */
+  word-wrap: break-word;
+}
+
+/* Styling for chatbot message box */
+.chatbot-box {
+  background-color: #0e5024;  /* Light gray background for chatbot messages */
+  color: #f2f6f0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 80%;
+  align-self: flex-start;  /* Aligns chatbot messages to the left */
+  word-wrap: break-word;
+}
+
+/* Other styling remains the same */
 
 
 code {
