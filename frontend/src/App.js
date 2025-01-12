@@ -50,7 +50,7 @@ function App() {
       </header>
 
       <div className="robot-section">
-      <img src="C:/Users/DAR AL WEFAQ/Documents/GitHub/Robot1.gif" alt="MoodMate Robot" className="robot-gif" />
+      <img src="assets/Robot1.gif" alt="MoodMate Robot" className="robot-gif" />
         <div className="speech-bubble">
           Got no one to talk to? <br /> I am here for you when no one is.
         </div>

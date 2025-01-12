@@ -19,21 +19,32 @@ body {
 }
 
 .homepage {
-  padding-top: 100px; /* Adds some space below the fixed header to prevent content from being hidden behind it */
+  padding-top: 10px; /* Adds some space below the fixed header to prevent content from being hidden behind it */
 }
-
 
 
 .robot-section {
   background-color: #EFBDBD;
-  width: 450px;              /* Set width of the container */
-  height: 300px;             /* Set height of the container */
-  flex-shrink: 0;            /* Prevents shrinking */
-  display: flex;             /* Layout children inside the div */
-  align-items: center;       /* Center content vertically */
-  justify-content: center;   /* Center content horizontally */
-  flex-direction: column;    /* Layout the speech bubble below */
-  position: relative;  /* Allow for positioning of elements within the container */
+  width: 450px;
+  height: 320px;
+  display: flex;
+  align-items: centre;
+  justify-content: centre;
+  flex-direction: column;
+  position: relative;
+  border: 1000px solid #EFBDBD ;
+}
+
+
+
+
+.robot-gif {
+  display: block; /* Prevents the image from being inline */
+  width: 650; /* Adjust size to fit the section if needed */
+  height: 100%; /* Ensures the height matches the container */
+  margin: 20px; /* Removes any extra spacing */
+  padding: 20px; /* Removes padding */
+
 }
 
 
