@@ -25,7 +25,7 @@ body {
 
 
 .robot-section {
-  background: url('C:\Users\DAR AL WEFAQ\Documents\GitHub\Robot1.gif') #EFBDBD 50% / cover no-repeat;
+  background-color: #EFBDBD;
   width: 450px;              /* Set width of the container */
   height: 300px;             /* Set height of the container */
   flex-shrink: 0;            /* Prevents shrinking */
@@ -34,7 +34,6 @@ body {
   justify-content: center;   /* Center content horizontally */
   flex-direction: column;    /* Layout the speech bubble below */
   position: relative;  /* Allow for positioning of elements within the container */
-  z-index: 0;  /* Lower z-index so the GIF stays behind */
 }
 
 
