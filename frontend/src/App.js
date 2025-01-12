@@ -9,7 +9,7 @@ function App() {
     <div className="homepage">
       <header className="header">
       <div
-  style={{
+     style={{
     color: '#35522B',
     textAlign: 'center',
     fontFeatureSettings: "'liga' off, 'clig' off",
@@ -19,6 +19,7 @@ function App() {
     fontWeight: 400,
     lineHeight: '120%',
     letterSpacing: '-1.5px',
+    alignItems: "center"
   }}
 >
   MoodMate
@@ -26,8 +27,11 @@ function App() {
 
 <div
   style={{
-    width: '868px',
-    height: '83px',
+    alignItems: "center",
+    textAlign: 'center',
+   // marginLeft:'5px',
+    //width: '868px',
+    //height: '83px',
     flexShrink: '0',
     color: '#35522B',
     textAlign: 'center',
@@ -46,7 +50,7 @@ function App() {
       </header>
 
       <div className="robot-section">
-        <img src="/robot.png" alt="MoodMate Robot" className="robot-image" />
+      <img src="C:/Users/DAR AL WEFAQ/Documents/GitHub/Robot1.gif" alt="MoodMate Robot" className="robot-gif" />
         <div className="speech-bubble">
           Got no one to talk to? <br /> I am here for you when no one is.
         </div>
@@ -62,6 +66,7 @@ function App() {
        
         <button className="send-button">➤</button>
       </div>
+      
     </div>
 
 

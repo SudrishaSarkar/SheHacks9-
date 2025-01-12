@@ -1,4 +1,5 @@
 body {
+  background-color: #EFBDBD !important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,6 +7,100 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.header {
+  position: fixed;  /* Fixes the header at the top of the screen */
+  top: 0;           /* Aligns the header to the top of the screen */
+  left: 0;          /* Aligns the header to the left edge */
+  width: 100%;      /* Makes the header span across the full width of the screen */
+  background-color:#EFBDBD;  /* Optional: Background color for better visibility */
+  z-index: 1000;    /* Ensures the header stays above other content */
+  padding: 20px;    /* Optional: Adds padding inside the header */
+}
+
+.homepage {
+  padding-top: 100px; /* Adds some space below the fixed header to prevent content from being hidden behind it */
+}
+
+
+
+.robot-section {
+  background: url('C:\Users\DAR AL WEFAQ\Documents\GitHub\Robot1.gif') #EFBDBD 50% / cover no-repeat;
+  width: 450px;              /* Set width of the container */
+  height: 300px;             /* Set height of the container */
+  flex-shrink: 0;            /* Prevents shrinking */
+  display: flex;             /* Layout children inside the div */
+  align-items: center;       /* Center content vertically */
+  justify-content: center;   /* Center content horizontally */
+  flex-direction: column;    /* Layout the speech bubble below */
+  position: relative;  /* Allow for positioning of elements within the container */
+  z-index: 0;  /* Lower z-index so the GIF stays behind */
+}
+
+
+
+
+
+/* Styling for the speech bubble */
+.speech-bubble {
+  width: 655px;
+height: 40px;
+flex-shrink: 0;
+color: #35522B;
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: 'Neucha';
+font-size: 36px;
+font-style: 'bold';
+font-weight: 400;
+line-height: 120%; /* 43.2px */
+letter-spacing: -0.72px;
+}
+
+/* Styling for input section */
+.input-section {
+  position: fixed;   /* Fixes the input section to a specific position */
+  bottom: 20px;  
+  display: flex;              /* Horizontally align input and button */
+  justify-content: center;    /* Centers input and button */
+  width: 906px;
+height: 71px;
+flex-shrink: 0;
+left: 50%;         /* Centers the section horizontally */
+  transform: translateX(-50%);
+  margin-top: 100px;          /* Space above the input section */
+}
+
+/* Styling for input box */
+.input-box {
+  width: 300px;               /* Set width of the input box */
+  height: 40px;               /* Set height of the input box */
+  padding: 5px;               /* Padding inside the input box */
+  font-size: 16px;            /* Font size inside the input */
+  margin-right: 10px;         /* Space between the input box and button */
+  border-radius: 2px;
+border: 1px solid #000;
+background: #F7DFDF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Styling for the send button */
+.send-button {
+  background-color: #35522B;  /* Background color of the button */
+  color: white;               /* Button text color */
+  font-size: 20px;            /* Font size */
+  padding: 10px 20px;         /* Padding inside the button */
+  border: none;               /* Remove border */
+  border-radius: 5px;         /* Rounded corners */
+  cursor: pointer;           /* Pointer cursor on hover */
+}
+
+.send-button:hover {
+  background-color: #2d4220;  /* Darker background on hover */
+}
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
