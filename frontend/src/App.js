@@ -1,8 +1,8 @@
 
 import React from 'react';
 import './App.css';
-import { IoDownloadOutline } from "react-icons/io5";
-import { SlMicrophone } from "react-icons/sl";
+//import { IoDownloadOutline } from "react-icons/io5";
+//import { SlMicrophone } from "react-icons/sl";
 
 function App() {
   return (
@@ -10,21 +10,39 @@ function App() {
       <header className="header">
       <div
   style={{
-    color: 'rgba(53, 82, 43, 0.87)',
+    color: '#35522B',
     textAlign: 'center',
     fontFeatureSettings: "'liga' off, 'clig' off",
-    fontFamily: '"Nerko One"',
-    fontSize: '128px',
+    fontFamily: 'Nerko One' ,
+    fontSize: '60px',
     fontStyle: 'normal',
     fontWeight: 400,
     lineHeight: '120%',
-    letterSpacing: '-2.56px',
+    letterSpacing: '-1.5px',
   }}
 >
   MoodMate
 </div>
 
-        <p>Vent, rant, talk — it's your space, your pace.</p>
+<div
+  style={{
+    width: '868px',
+    height: '83px',
+    flexShrink: '0',
+    color: '#35522B',
+    textAlign: 'center',
+    fontFeatureSettings: "'liga' off, 'clig' off",  // Corrected camelCase for fontFeatureSettings
+    fontFamily: 'Neucha',
+    fontSize: '30px',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    lineHeight: '120%',  // line-height can remain a percentage
+    letterSpacing: '-0.96px',
+  }}
+>
+  Vent, rant, talk — it's your space, your pace.
+</div>
+
       </header>
 
       <div className="robot-section">
@@ -35,13 +53,13 @@ function App() {
       </div>
 
       <div className="input-section">
-      <SlMicrophone className="mic" />
+      
         <input
           type="text"
           placeholder="Type your feelings away or record..."
           className="input-box"
         />
-        <IoDownloadOutline className="download"/>
+       
         <button className="send-button">➤</button>
       </div>
     </div>
