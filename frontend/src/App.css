@@ -1,8 +1,7 @@
-
 /* General styles */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #fddddd;
   display: flex;
   justify-content: center;
@@ -34,9 +33,10 @@ body {
 
 /* Robot section */
 .robot-section {
+  margin-top: -90px;
   position: relative;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: -200px;
 }
 
 .robot-image {
@@ -101,4 +101,4 @@ body {
   100% {
     transform: translateY(0px);
   }
-} 
+}
